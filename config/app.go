@@ -1,11 +1,10 @@
-import "os"
-
 package config
 
 
 import (
-"os"
-"github.com/subosito/gotenv"
+	"os"
+	"../utilities"
+	"github.com/subosito/gotenv"
 )
 
 // This function initialises ENV file
